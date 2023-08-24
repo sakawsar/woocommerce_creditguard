@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CreditGuard for WooCommerce by TalPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-03 21:33+0000\n"
+"PO-Revision-Date: 2021-08-03 21:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: עִבְרִית\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: talpress-woocommerce-creditguard"
+
+#: WC_Gateway_creditguard.php:129
+msgid " Iframe Height"
+msgstr "גובה iFrame"
+
+#: WC_Gateway_creditguard.php:129
+msgid " Iframe Width"
+msgstr "רוחב iFrame"
+
+#. Description of the plugin
+msgid "Accept CreditGuard payments on WooCommerce"
+msgstr "אפשרו תשלום מאובטח בכרטיס אשראי באמצעות קרדיטגארד"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Add more data to the URL"
+msgstr "שלחו עוד נתונים בURL"
+
+#: WC_Gateway_creditguard.php:49
+msgid "Allow payments using creditguard"
+msgstr "הפעלת תשלום באמצעות קרדיט גארד"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Allow returning customers to pay with a previously saved TOKEN"
+msgstr "אפשרו ללקוחות חוזרים לשלם באמצעות TOKEN שנשמר מהזמנות קודמות"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Allow Saved Tokens"
+msgstr "אפשר שמירת TOKEN"
+
+#: creditguard_meta_box.php:138 creditguard_user_fields.php:26
+msgid "Authorization"
+msgstr "אימות"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Auto"
+msgstr "אוטומטי"
+
+#: WC_Gateway_creditguard.php:709
+msgid "Cancel order &amp; restore cart"
+msgstr "ביטול הזמנה ושחזור סל קניות"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Capture"
+msgstr "לכידה"
+
+#: creditguard_user_fields.php:22
+msgid "CC Number"
+msgstr "מספר כרטיס אשראי"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Checkout Description"
+msgstr "תיאור בדף תשלום"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Checkout Title"
+msgstr "כותרת בדף תשלום"
+
+#: WC_Gateway_creditguard.php:327
+msgid "Clear log"
+msgstr "ניקוי לוג"
+
+#: WC_Gateway_creditguard.php:626
+#, php-format
+msgid "Click <a href=\"%s\">here </a>to return to the checkout page."
+msgstr "לחצו כאן בכדי לחזור לעמוד התשלום"
+
+#: WC_Gateway_creditguard.php:301
+msgid "Credentials"
+msgstr "פרטי גישה"
+
+#: WC_Gateway_creditguard.php:48
+msgid "creditguard"
+msgstr "קרדיט גארד"
+
+#: WC_Gateway_creditguard.php:297
+msgid "CreditGuard By TalPress"
+msgstr "קרדיט גארד מבית TalPress"
+
+#: creditguard_meta_box.php:61
+msgid "Creditguard delayed payment completed"
+msgstr "תשלום בהשהייה הושלם"
+
+#: creditguard_meta_box.php:49
+msgid "Creditguard delayed payment failed: "
+msgstr "תשלום בהשהייה נכשל: "
+
+#. Name of the plugin
+msgid "CreditGuard for WooCommerce by TalPress"
+msgstr "קרדיט גארד לווקומרס מבית TalPress"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard gateway URL"
+msgstr "כתובת שער Gateway"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard Merchand ID"
+msgstr "מזהה סוחר"
+
+#: creditguard_meta_box.php:110 WC_Gateway_creditguard.php:798
+msgid "Creditguard payment completed"
+msgstr "תשלום בקרדיט גארד הושלם"
+
+#: creditguard_meta_box.php:111
+msgid "Creditguard payment failed"
+msgstr "תשלום בקרדיט גארד נכשל"
+
+#: WC_Gateway_creditguard.php:110
+msgid "Creditguard payment failure"
+msgstr "כשלון בתשלום בקרדיט גארד"
+
+#: creditguard_meta_box.php:23
+msgid "Creditguard Payment information for delayed payment"
+msgstr ""
+
+#: WC_Gateway_creditguard.php:791
+msgid "Creditguard payment verified"
+msgstr "תשלום בקרדיט גארד אומת"
+
+#: WC_Gateway_creditguard.php:438
+msgid "Creditguard payment via saved cc completed"
+msgstr "תשלום באמצעות כרטיס אשראי שמור הושלם"
+
+#: WC_Gateway_creditguard.php:435
+msgid "Creditguard payment via saved cc verified"
+msgstr "תשלום באמצעות כרטיס אשראי שמור אומת"
+
+#: creditguard_user_fields.php:10
+msgid "Creditguard profile information"
+msgstr "מידע על לקוח מקרדיט גארד"
+
+#: tp_WC_creditguard_refund.php:59
+msgid "Creditguard refund transaction-id: "
+msgstr "מזהה החזר כספי בקרדיט גארד:"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard terminal number"
+msgstr "מספר מסוף"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard terminal password"
+msgstr "סיסמת מסוף"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard terminal username"
+msgstr "שם משתמש"
+
+#: creditguard_user_fields.php:16
+msgid "Creditguard Token for future payments"
+msgstr "טוקן לתשלומים עתידיים"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Currency"
+msgstr "מטבע"
+
+#: WC_Gateway_creditguard.php:119
+msgid "Debug"
+msgstr "ניפוי שגיאות"
+
+#: WC_Gateway_creditguard.php:309
+msgid "Debugging"
+msgstr "ניפוי שגיאות"
+
+#: WC_Gateway_creditguard.php:119
+msgid "Debugging Mode"
+msgstr "מצב ניפוי שגיאות"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Description on checkout page."
+msgstr "תיאור בדף התשלום."
+
+#: WC_Gateway_creditguard.php:124
+msgid "Disable this option if you are using WPML with language parameter."
+msgstr "בטל אפשרות זו אם הינך משתמש ב WPML עם פרמטר שפה."
+
+#: WC_Gateway_creditguard.php:902
+msgid "Discount"
+msgstr "הנחה"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Donation"
+msgstr "תרומה"
+
+#: WC_Gateway_creditguard.php:124
+msgid "EMV"
+msgstr "EMV"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Enable payment with CreditGuard"
+msgstr "הפעלת תשלום באמצעות קרדיט גארד"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Enable/Disable"
+msgstr "הפעלה וכיבוי"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Encoding"
+msgstr "קידוד"
+
+#: WC_Gateway_creditguard.php:144
+msgid "English"
+msgstr "אנגלית"
+
+#: WC_Gateway_creditguard.php:616
+msgid "Error code :"
+msgstr "קוד שגיאה: "
+
+#: WC_Gateway_creditguard.php:620
+msgid "Error text :"
+msgstr "טקסט שגיאה: "
+
+#: WC_Gateway_creditguard.php:144
+msgid "European currency unit"
+msgstr "מטבע אירופאי"
+
+#: creditguard_meta_box.php:134
+msgid "Expiration"
+msgstr "תוקף"
+
+#: creditguard_user_fields.php:18
+msgid "Expiration Date"
+msgstr "תוקף"
+
+#: creditguard_meta_box.php:146
+msgid "First payment"
+msgstr "תשלום ראשון"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Force SSL"
+msgstr "הכרח שימוש בSSL"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Gateway URL"
+msgstr "כתובת שער Gateway"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Generate CreditGuard invoices"
+msgstr "הפקת חשבוניות  מקרדיט גארד"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Great Britain Pound"
+msgstr "פאונד בריטי"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Hebrew"
+msgstr "עברית"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Hong Kong Dollar"
+msgstr "דולר הונג קונג"
+
+#. Author URI of the plugin
+msgid "http://www.TalPress.co.il"
+msgstr "http://www.TalPress.co.il"
+
+#: WC_Gateway_creditguard.php:305
+msgid "iFrame"
+msgstr "iFrame"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Include VAT"
+msgstr "לכלול מע\"מ"
+
+#: creditguard_meta_box.php:156
+msgid "Invoice number"
+msgstr "מספר חשבונית"
+
+#: creditguard_meta_box.php:172
+msgid "Invoice response code"
+msgstr "קוד תשובה לחשבונית"
+
+#: creditguard_meta_box.php:176
+msgid "Invoice response name"
+msgstr "שם תשובה לחשבונית"
+
+#: creditguard_meta_box.php:160
+msgid "Invoice url "
+msgstr "כתובת חשבונית"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Invoices"
+msgstr "חשבוניות"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Japanese Yen"
+msgstr "יין יפני"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Language"
+msgstr "שפה"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Load the secured Creditguard page in an iframe"
+msgstr "הצג את עמוד התשלום ב iFrame"
+
+#: creditguard_meta_box.php:164
+msgid "Mailed to "
+msgstr "נשלח אל"
+
+#: WC_Gateway_creditguard.php:299
+msgid "Main"
+msgstr "ראשי"
+
+#: WC_Gateway_creditguard.php:139
+msgid "Max Payments"
+msgstr "מקסימום תשלומים"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Merchant id"
+msgstr "מזהה סוחר"
+
+#: WC_Gateway_creditguard.php:307
+msgid "More Options"
+msgstr "עוד אפשרויות"
+
+#: WC_Gateway_creditguard.php:217
+msgid "New credit card"
+msgstr "כרטיס אשראי חדש"
+
+#: WC_Gateway_creditguard.php:144
+msgid "New Israeli Shekel"
+msgstr "שקל ישראלי"
+
+#: WC_Gateway_creditguard.php:709
+msgid "Pay via Creditguard"
+msgstr "תשלום מאובטח באמצעות קרדיט גארד"
+
+#: WC_Gateway_creditguard.php:614
+msgid "Payment failure, please try again or contact the store administrator"
+msgstr "התשלום נכשל, אנא נסו שנית או צרו קשר עם מערכת האתר."
+
+#: WC_Gateway_creditguard.php:124
+msgid "Payment Type"
+msgstr "סוג התשלום"
+
+#: creditguard_meta_box.php:142 WC_Gateway_creditguard.php:303
+msgid "Payments"
+msgstr "תשלומים"
+
+#: WC_Gateway_creditguard.php:236
+msgid "Payments : "
+msgstr "תשלומים: "
+
+#: creditguard_meta_box.php:150
+msgid "Periodical payment"
+msgstr ""
+
+#: WC_Gateway_creditguard.php:234
+msgid "please select the number of payments"
+msgstr "בחרו את מספר התשלומים"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Process"
+msgstr ""
+
+#: WC_Gateway_creditguard.php:124
+msgid "Receipt"
+msgstr "קבלה"
+
+#: WC_Gateway_creditguard.php:585
+msgid "renewal failed"
+msgstr "החידוש נכשל"
+
+#: WC_Gateway_creditguard.php:219
+msgid "Saved credit card that ends with : "
+msgstr "כרטיס אשראי שמור המסתיים בספרות: "
+
+#: WC_Gateway_creditguard.php:144
+msgid "Secure payment with CreditGuard"
+msgstr "תשלום מאובטח בכרטיס אשראי באמצעות קרדיט גארד"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Send additional data"
+msgstr "שליחת מידע נוסף"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Send the product descriptions instead of the order number"
+msgstr "שליחת תיאורי מוצר במקום מספר ההזמנה"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Set the Iframe height in PX "
+msgstr "בחרו את גובה ה iFrame בפיקסלים"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Set the Iframe width in PX , leave blank for 100%"
+msgstr "בחרו את רוחב ה iFrame בפיקסלים"
+
+#: WC_Gateway_creditguard.php:139
+msgid "Set the maximum allowed payments."
+msgstr "בחרו את מספר התשלומים המקסימלי."
+
+#: WC_Gateway_creditguard.php:144
+msgid "Set the title for Checkout page."
+msgstr "הגדרת הכותרת בדף התשלום."
+
+#: talpress_creditguard.php:21
+msgid "Settings"
+msgstr "הגדרות"
+
+#. Author of the plugin
+msgid "TalPress"
+msgstr "TalPress"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Tax Invoice"
+msgstr "חשבונית מס"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Terminal number"
+msgstr "מספר המסוף"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Terminal password"
+msgstr "סיסמת המסוף"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Terminal username"
+msgstr "שם משתמש"
+
+#: WC_Gateway_creditguard.php:166
+msgid "This is a verification order just to replace your billing information"
+msgstr ""
+
+#: WC_Gateway_creditguard.php:139
+msgid ""
+"This Overrides the Max Payments setting !!! to use conditional payment "
+"simply enter a comma separated amounts e.g 200,400,600 -> this will set the "
+"payments to be 1 for lower than 200 , 2 for lower than 400 etc ..."
+msgstr ""
+
+#: WC_Gateway_creditguard.php:139
+msgid "Tiered Payments"
+msgstr ""
+
+#: creditguard_meta_box.php:130 creditguard_user_fields.php:12
+msgid "Token"
+msgstr "טוקן"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Type"
+msgstr "סוג"
+
+#: WC_Gateway_creditguard.php:144
+msgid "United States Dollar"
+msgstr "דולר אמריקאי"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Use Iframe"
+msgstr "השתמש ב iFrame"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Use product descriptions "
+msgstr "השתמש בתיאור המוצר"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Use when site is using SSL"
+msgstr "סמן אם האתר שלך משתמש בSSL"
+
+#: WC_Gateway_creditguard.php:124
+msgid "VAT"
+msgstr "מע\"מ"
+
+#: WC_Gateway_creditguard.php:326
+msgid "View log"
+msgstr "הצגת לוג"

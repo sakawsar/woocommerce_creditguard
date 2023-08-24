@@ -1,0 +1,490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CreditGuard for WooCommerce by TalPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-03 21:34+0000\n"
+"PO-Revision-Date: 2021-08-16 13:26+0300\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: talpress-woocommerce-creditguard\n"
+"Last-Translator: \n"
+"Language: ru\n"
+
+#: WC_Gateway_creditguard.php:129
+msgid " Iframe Height"
+msgstr " Высота Iframe"
+
+#: WC_Gateway_creditguard.php:129
+msgid " Iframe Width"
+msgstr " Ширина Iframe"
+
+#. Description of the plugin
+msgid "Accept CreditGuard payments on WooCommerce"
+msgstr "Принимайте платежи CreditGuard на WooCommerce"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Add more data to the URL"
+msgstr "Добавьте больше данных в URL"
+
+#: WC_Gateway_creditguard.php:49
+msgid "Allow payments using creditguard"
+msgstr "Разрешить оплату с помощью кредитной карты"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Allow returning customers to pay with a previously saved TOKEN"
+msgstr ""
+"Позволить возвращающимся клиентам оплачивать покупки с помощью ранее "
+"сохраненного ТОКЕНА"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Allow Saved Tokens"
+msgstr "Разрешить сохраненные токены"
+
+#: creditguard_meta_box.php:138 creditguard_user_fields.php:26
+msgid "Authorization"
+msgstr "Авторизация"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Auto"
+msgstr "Авто"
+
+#: WC_Gateway_creditguard.php:709
+msgid "Cancel order &amp; restore cart"
+msgstr "Отменить заказ &amp; восстановить корзину"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Capture"
+msgstr "Захват"
+
+#: creditguard_user_fields.php:22
+msgid "CC Number"
+msgstr "Номер CC"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Checkout Description"
+msgstr "Описание выписки"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Checkout Title"
+msgstr "Название кассы"
+
+#: WC_Gateway_creditguard.php:327
+msgid "Clear log"
+msgstr "Очистить журнал"
+
+#: WC_Gateway_creditguard.php:626
+#, php-format
+msgid "Click <a href=\"%s\">here </a>to return to the checkout page."
+msgstr ""
+"Нажмите <a href=\"%s\">здесь</a>, чтобы вернуться на страницу оформления "
+"заказа."
+
+#: WC_Gateway_creditguard.php:301
+msgid "Credentials"
+msgstr "Учетные данные"
+
+#: WC_Gateway_creditguard.php:48
+msgid "creditguard"
+msgstr "creditguard"
+
+#: WC_Gateway_creditguard.php:297
+msgid "CreditGuard By TalPress"
+msgstr "CreditGuard от TalPress"
+
+#: creditguard_meta_box.php:61
+msgid "Creditguard delayed payment completed"
+msgstr "Отсроченный платеж Creditguard завершен"
+
+#: creditguard_meta_box.php:49
+msgid "Creditguard delayed payment failed: "
+msgstr "Creditguard отсрочил платеж: "
+
+#. Name of the plugin
+msgid "CreditGuard for WooCommerce by TalPress"
+msgstr "CreditGuard для WooCommerce от TalPress"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard gateway URL"
+msgstr "URL-адрес шлюза Creditguard"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard Merchand ID"
+msgstr "Creditguard Merchand ID"
+
+#: creditguard_meta_box.php:110 WC_Gateway_creditguard.php:798
+msgid "Creditguard payment completed"
+msgstr "Оплата услуг кредитной организации завершена"
+
+#: creditguard_meta_box.php:111
+msgid "Creditguard payment failed"
+msgstr "Платеж Creditguard не прошел"
+
+#: WC_Gateway_creditguard.php:110
+msgid "Creditguard payment failure"
+msgstr "Ошибка платежа Creditguard"
+
+#: creditguard_meta_box.php:23
+msgid "Creditguard Payment information for delayed payment"
+msgstr "Платежная информация Creditguard для отложенного платежа"
+
+#: WC_Gateway_creditguard.php:791
+msgid "Creditguard payment verified"
+msgstr "Платеж Creditguard проверен"
+
+#: WC_Gateway_creditguard.php:438
+msgid "Creditguard payment via saved cc completed"
+msgstr "Оплата через сохраненный сс Creditguard завершена"
+
+#: WC_Gateway_creditguard.php:435
+msgid "Creditguard payment via saved cc verified"
+msgstr "Creditguard оплата через сохраненный cc проверена"
+
+#: creditguard_user_fields.php:10
+msgid "Creditguard profile information"
+msgstr "Информация о профиле Creditguard"
+
+#: tp_WC_creditguard_refund.php:59
+msgid "Creditguard refund transaction-id: "
+msgstr "Номер транзакции возврата Creditguard: "
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard terminal number"
+msgstr "Номер терминала Creditguard"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard terminal password"
+msgstr "Пароль терминала Creditguard"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Creditguard terminal username"
+msgstr "Имя пользователя терминала Creditguard"
+
+#: creditguard_user_fields.php:16
+msgid "Creditguard Token for future payments"
+msgstr "Токен Creditguard для будущих платежей"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Currency"
+msgstr "Валюта"
+
+#: WC_Gateway_creditguard.php:119
+msgid "Debug"
+msgstr "Отладка"
+
+#: WC_Gateway_creditguard.php:309
+msgid "Debugging"
+msgstr "Отладка"
+
+#: WC_Gateway_creditguard.php:119
+msgid "Debugging Mode"
+msgstr "Режим отладки"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Description on checkout page."
+msgstr "Описание на странице оформления заказа."
+
+#: WC_Gateway_creditguard.php:124
+msgid "Disable this option if you are using WPML with language parameter."
+msgstr "Отключите эту опцию, если вы используете WPML с параметром языка."
+
+#: WC_Gateway_creditguard.php:902
+msgid "Discount"
+msgstr "Скидка"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Donation"
+msgstr "Пожертвование"
+
+#: WC_Gateway_creditguard.php:124
+msgid "EMV"
+msgstr "EMV"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Enable payment with CreditGuard"
+msgstr "Включите оплату с помощью CreditGuard"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Enable/Disable"
+msgstr "Включить/выключить"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Encoding"
+msgstr "Кодирование"
+
+#: WC_Gateway_creditguard.php:144
+msgid "English"
+msgstr "Английский язык"
+
+#: WC_Gateway_creditguard.php:616
+msgid "Error code :"
+msgstr "Код ошибки :"
+
+#: WC_Gateway_creditguard.php:620
+msgid "Error text :"
+msgstr "Текст ошибки :"
+
+#: WC_Gateway_creditguard.php:144
+msgid "European currency unit"
+msgstr "Европейская валютная единица"
+
+#: creditguard_meta_box.php:134
+msgid "Expiration"
+msgstr "Срок действия"
+
+#: creditguard_user_fields.php:18
+msgid "Expiration Date"
+msgstr "Дата истечения срока действия"
+
+#: creditguard_meta_box.php:146
+msgid "First payment"
+msgstr "Первый платеж"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Force SSL"
+msgstr "Принудительное SSL"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Gateway URL"
+msgstr "URL шлюза"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Generate CreditGuard invoices"
+msgstr "Создание счетов-фактур CreditGuard"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Great Britain Pound"
+msgstr "Британский фунт"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Hong Kong Dollar"
+msgstr "Гонконгский доллар"
+
+#. Author URI of the plugin
+msgid "http://www.TalPress.co.il"
+msgstr "http://www.TalPress.co.il"
+
+#: WC_Gateway_creditguard.php:305
+msgid "iFrame"
+msgstr "iFrame"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Include VAT"
+msgstr "Включая НДС"
+
+#: creditguard_meta_box.php:156
+msgid "Invoice number"
+msgstr "Номер счета-фактуры"
+
+#: creditguard_meta_box.php:172
+msgid "Invoice response code"
+msgstr "Код ответа на счет-фактуру"
+
+#: creditguard_meta_box.php:176
+msgid "Invoice response name"
+msgstr "Имя ответа на счет-фактуру"
+
+#: creditguard_meta_box.php:160
+msgid "Invoice url "
+msgstr " Адрес счета-фактуры"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Invoices"
+msgstr "Счета-фактуры"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Japanese Yen"
+msgstr "Японская иена"
+
+#: WC_Gateway_creditguard.php:144
+msgid "Language"
+msgstr "Язык"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Load the secured Creditguard page in an iframe"
+msgstr "Загрузите защищенную страницу Creditguard в iframe"
+
+#: creditguard_meta_box.php:164
+msgid "Mailed to "
+msgstr "По почте "
+
+#: WC_Gateway_creditguard.php:299
+msgid "Main"
+msgstr "Главная"
+
+#: WC_Gateway_creditguard.php:139
+msgid "Max Payments"
+msgstr "Максимальные платежи"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Merchant id"
+msgstr "Идентификатор продавца"
+
+#: WC_Gateway_creditguard.php:307
+msgid "More Options"
+msgstr "Дополнительные опции"
+
+#: WC_Gateway_creditguard.php:217
+msgid "New credit card"
+msgstr "Новая кредитная карта"
+
+#: WC_Gateway_creditguard.php:144
+msgid "New Israeli Shekel"
+msgstr "Новый израильский шекель"
+
+#: WC_Gateway_creditguard.php:709
+msgid "Pay via Creditguard"
+msgstr "Оплата через Creditguard"
+
+#: WC_Gateway_creditguard.php:614
+msgid "Payment failure, please try again or contact the store administrator"
+msgstr ""
+"Сбой платежа, пожалуйста, попробуйте еще раз или свяжитесь с "
+"администратором магазина"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Payment Type"
+msgstr "Тип оплаты"
+
+#: creditguard_meta_box.php:142 WC_Gateway_creditguard.php:303
+msgid "Payments"
+msgstr "Платежи"
+
+#: WC_Gateway_creditguard.php:236
+msgid "Payments : "
+msgstr "Платежи : "
+
+#: creditguard_meta_box.php:150
+msgid "Periodical payment"
+msgstr "Периодическая оплата"
+
+#: WC_Gateway_creditguard.php:234
+msgid "please select the number of payments"
+msgstr "пожалуйста, выберите количество платежей"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Process"
+msgstr "Процесс"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Receipt"
+msgstr "Квитанция"
+
+#: WC_Gateway_creditguard.php:585
+msgid "renewal failed"
+msgstr "обновление не состоялось"
+
+#: WC_Gateway_creditguard.php:219
+msgid "Saved credit card that ends with : "
+msgstr "Сохраненная кредитная карта, которая заканчивается на : "
+
+#: WC_Gateway_creditguard.php:144
+msgid "Secure payment with CreditGuard"
+msgstr "Безопасная оплата с помощью CreditGuard"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Send additional data"
+msgstr "Отправить дополнительные данные"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Send the product descriptions instead of the order number"
+msgstr "Отправляйте описания товаров вместо номера заказа"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Set the Iframe height in PX "
+msgstr "Установите высоту Iframe в PX "
+
+#: WC_Gateway_creditguard.php:129
+msgid "Set the Iframe width in PX , leave blank for 100%"
+msgstr " Установите ширину Iframe в PX, оставьте пустым для 100%."
+
+#: WC_Gateway_creditguard.php:139
+msgid "Set the maximum allowed payments."
+msgstr "Установите максимально допустимый размер платежей."
+
+#: WC_Gateway_creditguard.php:144
+msgid "Set the title for Checkout page."
+msgstr "Установите заголовок для страницы оплаты."
+
+#: talpress_creditguard.php:21
+msgid "Settings"
+msgstr "Настройки"
+
+#. Author of the plugin
+msgid "TalPress"
+msgstr "TalPress"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Tax Invoice"
+msgstr "Налоговая накладная"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Terminal number"
+msgstr "Номер терминала"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Terminal password"
+msgstr "Пароль терминала"
+
+#: WC_Gateway_creditguard.php:134
+msgid "Terminal username"
+msgstr "Имя пользователя терминала"
+
+#: WC_Gateway_creditguard.php:166
+msgid "This is a verification order just to replace your billing information"
+msgstr "Это проверочный заказ для замены вашей платежной информации"
+
+#: WC_Gateway_creditguard.php:139
+msgid ""
+"This Overrides the Max Payments setting !!! to use conditional payment "
+"simply enter a comma separated amounts e.g 200,400,600 -> this will set the "
+"payments to be 1 for lower than 200 , 2 for lower than 400 etc ..."
+msgstr ""
+"Это отменяет настройку Max Payments !!! для использования условных платежей "
+"просто введите суммы через запятую, например 200,400,600 -> это установит "
+"платежи 1 для сумм меньше 200, 2 для сумм меньше 400 и т.д. ..."
+
+#: WC_Gateway_creditguard.php:139
+msgid "Tiered Payments"
+msgstr "Многоуровневые платежи"
+
+#: creditguard_meta_box.php:130 creditguard_user_fields.php:12
+msgid "Token"
+msgstr "Токен"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Type"
+msgstr "Тип"
+
+#: WC_Gateway_creditguard.php:144
+msgid "United States Dollar"
+msgstr "Доллар США"
+
+#: WC_Gateway_creditguard.php:129
+msgid "Use Iframe"
+msgstr "Используйте Iframe"
+
+#: WC_Gateway_creditguard.php:124
+msgid "Use product descriptions "
+msgstr "Используйте описания товаров "
+
+#: WC_Gateway_creditguard.php:124
+msgid "Use when site is using SSL"
+msgstr "Используется, когда сайт использует SSL"
+
+#: WC_Gateway_creditguard.php:124
+msgid "VAT"
+msgstr "НДС"
+
+#: WC_Gateway_creditguard.php:326
+msgid "View log"
+msgstr "Просмотр журнала"
