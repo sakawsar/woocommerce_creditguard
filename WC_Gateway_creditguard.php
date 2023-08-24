@@ -198,6 +198,7 @@ function woocommerce_creditguard_init()
         {
             $token = get_user_meta(get_current_user_id(), "creditguard-token", true);
             $this->log("[INFO]: creditguard token: " . $token);
+            $saved_disabled = "";
             if ($token == "" || !$this->creditguard_allow_saved_cc) {
                 echo $this->description;
                 echo "<br>";
@@ -335,9 +336,19 @@ function woocommerce_creditguard_init()
             if (trim($this->creditguard_tiered_payments) != "") {
                 $max_payments = 1;
                 $payment_levels = explode(",", $this->creditguard_tiered_payments);
-                if ($total < $level) {
-                } else {
-                    $max_payments += 1;
+                if( !empty( $payment_levels ) ) {
+                    $last_payment_label_key = count($payment_levels) - 1;
+                    $last_payment_level = $payment_levels[$last_payment_label_key];
+                    if( $total > $last_payment_level ) {
+                        $max_payments += $last_payment_label_key + 1;
+                    } else {
+                        foreach( $payment_levels as $key => $max_order_total ) {
+                            if ($total <= $max_order_total) {
+                                $max_payments += ($key + 1);
+                                return $max_payments;
+                            }
+                        }
+                    }
                 }
             }
             return $max_payments;
